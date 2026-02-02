@@ -40,8 +40,8 @@ function module.ServerInfo(player, formdata, tool, keyword, extra1, extra2, extr
 	end
 
 	task.spawn(function()
-		local player_data = require(game.ReplicatedStorage:WaitForChild("Tbc_System").Workbench.BenchServer)
-		local saber_parts = require(game.ReplicatedStorage:WaitForChild("Tbc_System").SaberParts.SaberParts)
+		local player_data = require(game.ReplicatedStorage:WaitForChild("IR_System").Workbench.BenchServer)
+		local saber_parts = require(game.ReplicatedStorage:WaitForChild("IR_System").SaberParts.SaberParts)
 
 		local function playSound(s, part, range)
 			local sound = s:Clone()
